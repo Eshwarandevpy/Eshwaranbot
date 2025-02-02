@@ -34,12 +34,7 @@ app = Client(
     bot_token=config.BOT_TOKEN,
 )
 
-client = Client(
-    "Eshwaranbot",
-    config.API_ID,
-    config.API_HASH,
-    session_name=config.SESSION_NAME
-    )
+client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
 
 def all_info(app, client):
     global BOT_ID, BOT_NAME, BOT_USERNAME
