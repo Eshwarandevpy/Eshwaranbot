@@ -3,4 +3,4 @@
 
 ### Codes Credits Go To The Respectively Owner.
 
-#### Devolop By [Dusky Joe](t.me/ONLY_DUSKY)
+#### Dev By [Dusky Joe](t.me/ONLY_DUSKY)
