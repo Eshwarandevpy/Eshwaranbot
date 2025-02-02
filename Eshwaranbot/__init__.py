@@ -38,7 +38,7 @@ client = Client(
     "Eshwaranbot",
     config.API_ID,
     config.API_HASH,
-    session_string=config.SESSION_NAME
+    session_name=config.SESSION_NAME
     )
 
 def all_info(app, client):
