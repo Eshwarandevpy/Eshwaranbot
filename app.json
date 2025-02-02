@@ -1,0 +1,107 @@
+{
+    "name": "Eshwaran Music Bot",
+    "description": "Powerful telegram's group voice chat music player. Run on python3 !!",
+    "logo": "https://graph.org/file/c32d185ee0418fd22812d-3657fac1ca90b932ad.jpg",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/Eshwarandevpy/Eshwaranbot.Git",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string from account",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": "6331652840"
+        },
+        "ASSID": {
+            "description": "Fill with your music assistant's ID",
+            "required": true,
+            "value": ""
+        },
+        "BG_IMG": {
+            "description": "Fill with Telegraph image Link for Thumbnail !!",
+            "required": true,
+            "value": ""
+        },
+        "ASSNAME": {
+            "description": "Fill with your music Assistant's Name",
+            "required": true,
+            "value": ""
+        },
+        "ASSUSERNAME": {
+            "description": "Fill with your Music Assistant's Username without @",
+            "required": true,
+            "value": ""
+        },
+        "BOT_ID": {
+            "description": "fill with telegram id of bot",
+            "required": true,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "fill with telegram username of bot without @",
+            "required": true,
+            "value": ""
+        },
+        "SUPPORT": {
+            "description": "Fill with your support group username without @",
+            "required": true,
+            "value": "Eshwaransupport"
+        },
+        "UPDATE": {
+            "description": "Fill with your Update Channel username without @",
+            "required": true,
+            "value": "Eshwaranupdates"
+        },
+        "OWNER_USERNAME": {
+            "description": "Fill with the Bot Owner Username without @",
+            "required": true,
+            "value": "ONLY_DUSKY"
+        },
+        "BOT_NAME": {
+            "description": "fill with telegram name of bot",
+            "required": true,
+            "value": ""
+        },
+        "START_PIC": {
+            "description": "Enter the telegraph link of an image or contact @Eshwaransupport",
+            "value": "https://graph.org/file/c32d185ee0418fd22812d-3657fac1ca90b932ad.jpg",
+            "required": true
+        },
+        "API_ID": {
+            "description": "your Api ID from my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "fill with the user id who can access all function in your bot (separate with space).",
+            "required": true,
+            "value": "6331652840"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !!)",
+            "required": true,
+            "value": ""
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
